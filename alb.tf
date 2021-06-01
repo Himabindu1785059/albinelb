@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-2"
-}
-
 resource "aws_lb_target_group" "my-target-group" {
   health_check {
     interval            = 10
