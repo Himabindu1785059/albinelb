@@ -21,4 +21,4 @@ module "alb" {
   subnet1      = "${module.vpc.subnet1}"
   subnet2      = "${module.vpc.subnet2}"
 }
-© 2021 GitHub, Inc.
+
